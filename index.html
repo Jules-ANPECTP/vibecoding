@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jules Sambou - Portfolio</title>
+    <meta name="description" content="Jules Sambou - Informaticien expérimenté avec plus de 10 ans d'expériences" />
+    <meta name="author" content="Jules Sambou" />
+
+    <meta property="og:title" content="Jules Sambou - Portfolio" />
+    <meta property="og:description" content="Informaticien expérimenté avec plus de 10 ans d'expériences" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .bg-gradient-primary { background: linear-gradient(135deg, #3B82F6, #60A5FA); }
+      .text-gradient-primary { 
+        background: linear-gradient(135deg, #3B82F6, #60A5FA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <!-- Hero Section -->
+      <section class="relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-blue-400/5"></div>
+        <div class="absolute top-1/4 right-1/4 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-1/4 left-1/4 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl"></div>
+        
+        <div class="relative container mx-auto px-4 py-24 lg:py-32">
+          <div class="max-w-4xl mx-auto text-center">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 bg-blue-500/10 text-blue-600 px-4 py-2 rounded-full mb-8 shadow-lg">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+              </svg>
+              <span class="text-sm font-medium">Portfolio professionnel</span>
+            </div>
+
+            <!-- Main headline with name -->
+            <h1 class="text-5xl lg:text-7xl font-bold mb-6 text-gradient-primary leading-tight">
+              Bonjour, je suis
+              <br />
+              Jules Sambou
+            </h1>
+
+            <!-- Subtitle -->
+            <p class="text-xl lg:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+              Informaticien experiementé avec plus de 10 ans d'experiences
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+              <button class="bg-gradient-primary text-white hover:shadow-xl transition-all duration-300 text-lg px-8 py-4 rounded-lg font-medium inline-flex items-center justify-center gap-2">
+                Voir mes projets
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <button class="text-lg px-8 py-4 border border-blue-200 hover:bg-blue-50 rounded-lg font-medium text-blue-600 transition-all duration-300">
+                Me contacter
+              </button>
+            </div>
+
+            <!-- Features highlights -->
+            <div class="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+              <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-gray-200/50 shadow-lg">
+                <div class="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 shadow-lg">
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                  </svg>
+                </div>
+                <h3 class="font-semibold mb-2">Ultra Rapide</h3>
+                <p class="text-gray-600 text-sm">Performance optimisée pour une expérience fluide</p>
+              </div>
+
+              <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-gray-200/50 shadow-lg">
+                <div class="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 shadow-lg">
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                  </svg>
+                </div>
+                <h3 class="font-semibold mb-2">Sécurisé</h3>
+                <p class="text-gray-600 text-sm">Sécurité de niveau entreprise garantie</p>
+              </div>
+
+              <div class="flex flex-col items-center text-center p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-gray-200/50 shadow-lg">
+                <div class="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 shadow-lg">
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                  </svg>
+                </div>
+                <h3 class="font-semibold mb-2">Innovant</h3>
+                <p class="text-gray-600 text-sm">Technologie de pointe et design moderne</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
